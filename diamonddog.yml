@@ -222,6 +222,24 @@ FoodModifiers:
     Food: 3
 Saturation: 2
 
+#Gems
+  DIAMOND:
+    Food: 10
+    Saturation: 10
+    Effects:
+    - "RESISTANCE:3:30"
+  EMERALD:
+    Food: 6
+    Saturation: 5
+    - "HASTE:2:10"
+  LAPIS_LAZULI:
+    Food: 2
+    Saturation: 2
+  QUARTZ:
+    Food: 3
+    Saturation: 2
+- "REGENERATION:1:3"
+
 TpaCost: 8
 TpaDelay: 5
 
