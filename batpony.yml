@@ -7,7 +7,7 @@ Description:
   - "&8Bat&6 - <placeholder>"
   - "&6<placeholder>"
   - "&6<placeholder>"
-  - "&6A herbivore, some foods are better for you, but avoid meat"
+  - "&6A select omnivore. Certain foods are better, but avoid red meat."
 CommandsJoin:
   - pex user {player} group add batpony
 CommandsLeave:
@@ -20,27 +20,27 @@ FoodModifiers:
     Saturation: 3
   BAKED_POTATO: # 5, 6
     Food: 6
-    Saturation: 6
+    Saturation: 4
   BEETROOT: # 1, 1.2
     Food: 3
     Saturation: 2
   BEETROOT_SOUP: # 6, 7.2
     Food: 8
-    Saturation: 8
+    Saturation: 5
     Effects:
     - "REGENERATION:2:5"
   BREAD: # 5, 6
     Food: 6
-    Saturation: 6
+    Saturation: 4
   CAKE: # 2, 0.4
     Food: 4
     Saturation: 3
   CARROT: # 3, 3.6
     Food: 3
-    Saturation: 4
+    Saturation: 2
   CHORUS_FRUIT: # 4, 2.4
     Food: 5
-    Saturation: 4
+    Saturation: 2
   COOKIE: # 2, 0.4
     Food: 6
     Saturation: 3
@@ -69,7 +69,7 @@ FoodModifiers:
     Saturation: 2
   MUSHROOM_STEW: # 6, 7.2
     Food: 8
-    Saturation: 8
+    Saturation: 6
   POISONOUS_POTATO: # 2, 1.2, 60%POISON:1:4
     Food: 3
     Saturation: 2
@@ -82,7 +82,7 @@ FoodModifiers:
     Saturation: 2
   PUMPKIN_PIE: # 8, 4.8
     Food: 10
-    Saturation: 6
+    Saturation: 5
   COOKED_BEEF: # 8, 12.8
     Food: 3
     Saturation: 1.8
@@ -91,17 +91,11 @@ FoodModifiers:
     - "20%WEAKNESS:1:60"
     - "20%SLOW:1:40"
   COOKED_CHICKEN: # 6, 7.2
-    Food: 2
-    Saturation: 1.6
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
+    Food: 5
+    Saturation: 4
   COOKED_COD: # 5, 6
-    Food: 2
-    Saturation: 1.6
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
+    Food: 6
+    Saturation: 5
   COOKED_MUTTON: # 6, 9.6
     Food: 2
     Saturation: 1.6
@@ -115,17 +109,11 @@ FoodModifiers:
     - "20%CONFUSION:1:10"
     - "20%WEAKNESS:1:60"
   COOKED_RABBIT: # 5, 6
-    Food: 2
-    Saturation: 1.6
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
+    Food: 3
+    Saturation: 2
   COOKED_SALMON: # 6, 9.6
-    Food: 2
-    Saturation: 1.8
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
+    Food: 6
+    Saturation: 5
   BEEF: # 3, 1.8, 30%HUNGER:1:30
     Food: 1
     Saturation: 0.8
@@ -135,21 +123,11 @@ FoodModifiers:
     - "70%POISON:1:6"
     - "50%HUNGER:1:50"
   CHICKEN: # 2, 1.2, 30%HUNGER:1:30
-    Food: 1
-    Saturation: 0.8
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
-    - "70%POISON:1:6"
-    - "50%HUNGER:1:50"
+    Food: 3
+    Saturation: 2
   COD: # 2, 0.4
-    Food: 1
-    Saturation: 0.2
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
-    - "70%POISON:1:6"
-    - "50%HUNGER:1:50"
+    Food: 3
+    Saturation: 2
   MUTTON: # 2, 1.2
     Food: 1
     Saturation: 0.8
@@ -168,21 +146,11 @@ FoodModifiers:
     - "50%HUNGER:1:50"
   # PUFFERFISH: 1, HUNGER:3:15,CONFUSION:2:15,POISON:4:60"
   RABBIT: # 3, 1.8
-    Food: 1
-    Saturation: 0.8
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
-    - "70%POISON:1:6"
-    - "50%HUNGER:1:50"
-  RABBIT_STEW: # 10, 12
     Food: 2
-    Saturation: 0.8
-    Effects:
-    - "CONFUSION:1:15"
-    - "UNLUCK:1:20"
-    - "WEAKNESS:1:60"
-    - "80%HUNGER:1:50"
+    Saturation: 2
+  RABBIT_STEW: # 10, 12
+    Food:5
+    Saturation: 4
   ROTTEN_FLESH: # 4, 0.8, 80%HUNGER:1:30
     Food: 1
     Saturation: 0.8
@@ -192,13 +160,8 @@ FoodModifiers:
     - "70%POISON:1:6"
     - "80%HUNGER:1:50"
   SALMON: # 2, 0.4
-    Food: 1
-    Saturation: 0.2
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
-    - "70%POISON:1:6"
-    - "80%HUNGER:1:50"
+    Food: 3
+    Saturation: 2
   SPIDER_EYE: # 2, 3.2, POISON:1:4
     Food: 5
     Saturation: 3
@@ -211,12 +174,8 @@ FoodModifiers:
     - "10%LEVITATION:1:5"
     - "20%POISON:1:4"
   TROPICAL_FISH: # 1, 0.2
-    Food: 1
-    Saturation: 0.5
-    Effects:
-    - "20%CONFUSION:1:10"
-    - "20%WEAKNESS:1:60"
-    - "80%HUNGER:1:50"
+    Food: 3
+    Saturation: 2
 
 TpaCost: 8
 TpaDelay: 5
