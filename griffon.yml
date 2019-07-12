@@ -1,0 +1,270 @@
+Title: "&cGriffon"
+Tag: "&9[&cGriffon&9]"
+FullTitle: "&cGriffon"
+SignText: "[Griffon]"
+ActiveSign: "&4[&bGriffon&4]"
+Description:
+  - "&cGriffon&6 - <placeholder>"
+  - "&6<placeholder>"
+  - "&6<placeholder>"
+  - "&6A carnivore, some foods are better for you, but avoid non-meat foods"
+CommandsJoin:
+  - pex user {player} group add griffon
+CommandsLeave:
+  - pex user {player} group remove griffon
+
+# this does not make items edible, but replace default values
+FoodModifiers:
+  APPLE: # 4, 2.4
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  BAKED_POTATO: # 5, 6
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  BEETROOT: # 1, 1.2
+    Food: 0.5
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  BEETROOT_SOUP: # 6, 7.2
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  BREAD: # 5, 6
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  CAKE: # 2, 0.4
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  CARROT: # 3, 3.6
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  CHORUS_FRUIT: # 4, 2.4
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  COOKIE: # 2, 0.4
+    Food: 1
+    Saturation: 0.2
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  DRIED_KELP: # 1, 0.6
+    Food: 1
+    Saturation: 0.4
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  GOLDEN_APPLE: # 4, 9.6, REGENERATION:2:5, ABSORPTION:1:120
+    Food: 3
+    Saturation: 9.6
+    Effects:
+    - "REGENERATION:1:5"
+    - "ABSORPTION:1:120"
+  ENCHANTED_GOLDEN_APPLE: # 4, 9.6, REGENERATION:2:20, ABSORPTION:4:120, DAMAGE_RESISTANCE:1:300, FIRE_RESISTANCE:1:300
+    Food: 3
+    Saturation: 9.6
+    Effects:
+    - "REGENERATION:2:20"
+    - "ABSORPTION:4:120"
+    - "DAMAGE_RESISTANCE:1:300"
+    - "FIRE_RESISTANCE:1:300"
+  MELON: # 2, 1.2
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  MUSHROOM_STEW: # 6, 7.2
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  POISONOUS_POTATO: # 2, 1.2, 60%POISON:1:4
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  POTATO: # 1, 0.6
+    Food: 1
+    Saturation: 0.4
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  PUMPKIN_PIE: # 8, 4.8
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "20%CONFUSION:1:10"
+    - "20%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "50%HUNGER:1:50"
+  #Meat
+  COOKED_BEEF: # 8, 12.8
+    Food: 9
+    Saturation: 13
+  COOKED_CHICKEN: # 6, 7.2
+    Food: 7
+    Saturation: 8
+  COOKED_COD: # 5, 6
+    Food: 7
+    Saturation: 8
+  COOKED_MUTTON: # 6, 9.6
+    Food: 7
+    Saturation: 11
+  COOKED_PORKCHOP: # 8, 12.8
+    Food: 9
+    Saturation: 14
+  COOKED_RABBIT: # 5, 6
+    Food: 7
+    Saturation: 8
+  COOKED_SALMON: # 6, 9.6
+    Food: 8
+    Saturation: 12
+  BEEF: # 3, 1.8, 30%HUNGER:1:30
+    Food: 4
+    Saturation: 2
+  CHICKEN: # 2, 1.2, 30%HUNGER:1:30
+    Food: 3
+    Saturation: 2
+  COD: # 2, 0.4
+    Food: 4
+    Saturation: 2
+  MUTTON: # 2, 1.2
+    Food: 3
+    Saturation: 2
+  PORKCHOP: # 3, 1.8
+    Food: 4
+    Saturation: 3
+  # PUFFERFISH: 1, HUNGER:3:15,CONFUSION:2:15,POISON:4:60"
+  RABBIT: # 3, 1.8
+    Food: 4
+    Saturation: 3
+  RABBIT_STEW: # 10, 12
+    Food: 12
+    Saturation: 14
+    Effects:
+    - "REGENERATION:2:5"
+    - "LUCK:1:20"
+  ROTTEN_FLESH: # 4, 0.8, 80%HUNGER:1:30
+    Food: 1
+    Saturation: 0.8
+    Effects:
+    - "80%CONFUSION:1:10"
+    - "60%WEAKNESS:1:60"
+    - "70%POISON:1:6"
+    - "80%HUNGER:1:50"
+  SALMON: # 2, 0.4
+    Food: 3
+    Saturation: 2
+  SPIDER_EYE: # 2, 3.2, POISON:1:4
+    Food: 5
+    Saturation: 3
+    Effects:
+    - "50%BLINDNESS:1:5"
+    - "30%INCREASE_DAMAGE:2:20"
+    - "40%SLOW:1:10"
+    - "20%NIGHT_VISION:1:5"
+    - "20%SLOW_FALLING:1:10"
+    - "10%LEVITATION:1:5"
+    - "20%POISON:1:4"
+  TROPICAL_FISH: # 1, 0.2
+    Food: 3
+    Saturation: 2
+
+TpaCost: 8
+TpaDelay: 5
+
+# all timings are in seconds
+# flight speed is expressed as an integer [1-100], default speed is 10
+# effects: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+Levels:
+  1:
+    Flight: true
+    FlightHungerDelay: 4
+    FlightStamina: 20
+    FlightRecharge: 1
+    FlightSpeed: 2
+    FlightEffects:
+      - SLOW_FALLING
+    UpgradeRequirement:
+      FlightTime: 1800
+      KillMobs: 20
+      BlocksMined: 100
+  2:
+    Flight: true
+    FlightHungerDelay: 6
+    FlightStamina: 40
+    FlightRecharge: 1
+    FlightSpeed: 3
+    FlightEffects:
+      - SLOW_FALLING
+    UpgradeRequirement:
+      FlightTime: 3600
+      KillMobs: 50
+      BlocksMined: 500
+  3:
+    Flight: true
+    FlightHungerDelay: 8
+    FlightStamina: 80
+    FlightRecharge: 2
+    FlightSpeed: 4
+    FlightEffects:
+      - SLOW_FALLING
+    Effects:
+      - SPEED
+    UpgradeRequirement:
+      FlightTime: 7200
+      KillMobs: 200
+      BlocksMined: 1000
+    
